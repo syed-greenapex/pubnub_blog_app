@@ -28,13 +28,53 @@
 </section>
 
 <section class="section comments">
-	<div class="container">
-		<h2 class="subtitle is-5"><strong><%= @post.comments.count %></strong> Comments</h2>
-		<%= render @post.comments %>
-		<div class="comment-form">
-			<hr />
-			<p class="subtitle is-6">Add a Comment</p>
-	 		<%= render 'comments/form' %>
-		</div>
-	</div>
+  <div class="container">
+    <h2 class="subtitle is-5"><strong><%= @post.comments.count %></strong> Comments</h2>
+    <div id="comments-container">
+      <%= render @post.comments %>
+    </div>
+    <div class="comment-form">
+      <hr />
+      <p class="subtitle is-6">Add a Comment</p>
+      <%= render 'comments/form' %>
+    </div>
+  </div>
 </section>
+
+<script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.29.1.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const form = document.querySelector('#new_comment');
+    const pubnub = new PubNub({
+      subscribe_key: 'sub-c-06aae617-f0de-44b8-9c9a-62279dc10f7f',
+      publish_key: 'pub-c-e90fee66-1699-4ee4-be3f-1ca59458523f',
+      user_id: 'd0a02f0f-8a84-4b36-9f78-846bb84c3299'
+    });
+
+    const channel = "channel-<%= @post.id %>";
+
+    pubnub.subscribe({
+      channels: [channel]
+    });
+
+    pubnub.addListener({
+      message: function (message) {
+		  console.log('1...' + message.message.comment);
+
+        const comment = message.message.comment;
+        const commentsContainer = document.getElementById('comments-container');
+        const newCommentElement = document.createElement("div");
+        newCommentElement.classList.add('comment');
+        newCommentElement.innerHTML = `
+          <p class="comment-name"><strong>${message.message.name}</strong>:</p>
+          <p class="comment-content">${comment}</p>
+        `;
+        commentsContainer.appendChild(newCommentElement);
+      }
+
+    });
+  });
+
+</script>

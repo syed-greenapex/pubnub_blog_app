@@ -54,6 +54,9 @@ gem 'bulma-rails', '~> 0.9.4'
 # Forms made easy!
 gem 'simple_form', '~> 5.2'
 
+# real-time functionality anywhere in the world in 250ms
+gem 'pubnub', '~> 5.2.2'
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
