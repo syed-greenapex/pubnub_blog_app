@@ -758,3 +758,92 @@ D, [2023-06-22T11:47:40.767119 #21959] DEBUG -- Pubnub::Event: #send_request got
 D, [2023-06-22T11:47:40.768512 #21959] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-e90fee66-1699-4ee4-be3f-1ca59458523f/sub-c-06aae617-f0de-44b8-9c9a-62279dc10f7f/0/channel-2/0/%7B%22name%22%3A%22aa12%22%2C%22comment%22%3A%22aa12%22%7D?l_pub=0.136&ortt=%7B%22t%22%3A16874146607644364%7D&pnsdk=PubNub-Ruby%2F5.2.2&seqn=6&uuid=d0a02f0f-8a84-4b36-9f78-846bb84c3299
 D, [2023-06-22T11:47:40.924095 #21959] DEBUG -- Pubnub::Event: Event#handle
 D, [2023-06-22T11:47:40.925643 #21959] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2023-06-23T15:57:18.548564 #47664] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2023-06-23T15:57:18.549143 #47664] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 5.2.2
+D, [2023-06-23T15:58:26.100619 #47664] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2023-06-23T15:58:26.101265 #47664] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2023-06-23T15:58:26.107124 #47664] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2023-06-23T15:58:26.107332 #47664] DEBUG -- Pubnub::Event: #send_request called
+D, [2023-06-23T15:58:26.111576 #47664] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2023-06-23T15:58:26.111821 #47664] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2023-06-23T15:58:26.112718 #47664] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2023-06-23T15:58:26.113838 #47664] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-e90fee66-1699-4ee4-be3f-1ca59458523f/sub-c-06aae617-f0de-44b8-9c9a-62279dc10f7f/0/channel-2/0/%7B%22name%22%3A%22bhagya%22%2C%22comment%22%3A%22good%22%7D?ortt=%7B%22t%22%3A16875161061014666%7D&pnsdk=PubNub-Ruby%2F5.2.2&seqn=1&uuid=d0a02f0f-8a84-4b36-9f78-846bb84c3299
+D, [2023-06-23T15:58:26.248559 #47664] DEBUG -- Pubnub::Event: Event#handle
+D, [2023-06-23T15:58:26.250894 #47664] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2023-06-23T15:58:51.399351 #47664] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2023-06-23T15:58:51.399705 #47664] DEBUG -- Pubnub::Telemetry: Current average: 0.13484692573547363
+D, [2023-06-23T15:58:51.400157 #47664] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2023-06-23T15:58:51.403784 #47664] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2023-06-23T15:58:51.404055 #47664] DEBUG -- Pubnub::Event: #send_request called
+D, [2023-06-23T15:58:51.406920 #47664] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2023-06-23T15:58:51.407094 #47664] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2023-06-23T15:58:51.409390 #47664] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2023-06-23T15:58:51.410631 #47664] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-e90fee66-1699-4ee4-be3f-1ca59458523f/sub-c-06aae617-f0de-44b8-9c9a-62279dc10f7f/0/channel-2/0/%7B%22name%22%3A%22arun%22%2C%22comment%22%3A%22arun%20good%22%7D?l_pub=0.135&ortt=%7B%22t%22%3A16875161314003098%7D&pnsdk=PubNub-Ruby%2F5.2.2&seqn=2&uuid=d0a02f0f-8a84-4b36-9f78-846bb84c3299
+D, [2023-06-23T15:58:51.553124 #47664] DEBUG -- Pubnub::Event: Event#handle
+D, [2023-06-23T15:58:51.554012 #47664] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2023-06-23T15:59:07.313223 #47664] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2023-06-23T15:59:07.313506 #47664] DEBUG -- Pubnub::Telemetry: Current average: 0.14319491386413574
+D, [2023-06-23T15:59:07.313901 #47664] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2023-06-23T15:59:07.317312 #47664] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2023-06-23T15:59:07.317482 #47664] DEBUG -- Pubnub::Event: #send_request called
+D, [2023-06-23T15:59:07.317548 #47664] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2023-06-23T15:59:07.318530 #47664] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2023-06-23T15:59:07.320167 #47664] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2023-06-23T15:59:07.321370 #47664] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-e90fee66-1699-4ee4-be3f-1ca59458523f/sub-c-06aae617-f0de-44b8-9c9a-62279dc10f7f/0/channel-2/0/%7B%22name%22%3A%22arun123%22%2C%22comment%22%3A%22arun%20good123%22%7D?l_pub=0.143&ortt=%7B%22t%22%3A16875161473140974%7D&pnsdk=PubNub-Ruby%2F5.2.2&seqn=3&uuid=d0a02f0f-8a84-4b36-9f78-846bb84c3299
+D, [2023-06-23T15:59:07.425872 #47664] DEBUG -- Pubnub::Event: Event#handle
+D, [2023-06-23T15:59:07.426757 #47664] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2023-06-23T15:59:20.378533 #47664] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2023-06-23T15:59:20.378779 #47664] DEBUG -- Pubnub::Telemetry: Current average: 0.1053154468536377
+D, [2023-06-23T15:59:20.379398 #47664] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2023-06-23T15:59:20.383039 #47664] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2023-06-23T15:59:20.383943 #47664] DEBUG -- Pubnub::Event: #send_request called
+D, [2023-06-23T15:59:20.384092 #47664] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2023-06-23T15:59:20.386728 #47664] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2023-06-23T15:59:20.389128 #47664] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2023-06-23T15:59:20.390741 #47664] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-e90fee66-1699-4ee4-be3f-1ca59458523f/sub-c-06aae617-f0de-44b8-9c9a-62279dc10f7f/0/channel-2/0/%7B%22name%22%3A%22arun123%22%2C%22comment%22%3A%22arun%20good123%22%7D?l_pub=0.105&ortt=%7B%22t%22%3A16875161603795480%7D&pnsdk=PubNub-Ruby%2F5.2.2&seqn=4&uuid=d0a02f0f-8a84-4b36-9f78-846bb84c3299
+D, [2023-06-23T15:59:20.494393 #47664] DEBUG -- Pubnub::Event: Event#handle
+D, [2023-06-23T15:59:20.495315 #47664] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2023-06-23T17:38:23.145987 #47664] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2023-06-23T17:38:23.146069 #47664] DEBUG -- Pubnub::Telemetry: Current average: 0.10484647750854492
+D, [2023-06-23T17:38:23.146163 #47664] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2023-06-23T17:38:23.147158 #47664] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2023-06-23T17:38:23.147199 #47664] DEBUG -- Pubnub::Event: #send_request called
+D, [2023-06-23T17:38:23.147215 #47664] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2023-06-23T17:38:23.147620 #47664] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2023-06-23T17:38:23.148482 #47664] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2023-06-23T17:38:23.148964 #47664] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-e90fee66-1699-4ee4-be3f-1ca59458523f/sub-c-06aae617-f0de-44b8-9c9a-62279dc10f7f/0/channel-2/0/%7B%22name%22%3A%22saush%22%2C%22comment%22%3A%22congrats%22%7D?l_pub=0.105&ortt=%7B%22t%22%3A16875221031462052%7D&pnsdk=PubNub-Ruby%2F5.2.2&seqn=5&uuid=d0a02f0f-8a84-4b36-9f78-846bb84c3299
+D, [2023-06-23T17:38:23.228949 #47664] DEBUG -- Pubnub::Event: Event#handle
+D, [2023-06-23T17:38:23.229695 #47664] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2023-06-23T17:38:38.391946 #47664] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2023-06-23T17:38:38.392032 #47664] DEBUG -- Pubnub::Telemetry: Current average: 0.07975625991821289
+D, [2023-06-23T17:38:38.392130 #47664] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2023-06-23T17:38:38.392884 #47664] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2023-06-23T17:38:38.392957 #47664] DEBUG -- Pubnub::Event: #send_request called
+D, [2023-06-23T17:38:38.393484 #47664] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2023-06-23T17:38:38.393552 #47664] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2023-06-23T17:38:38.394205 #47664] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2023-06-23T17:38:38.394664 #47664] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-e90fee66-1699-4ee4-be3f-1ca59458523f/sub-c-06aae617-f0de-44b8-9c9a-62279dc10f7f/0/channel-2/0/%7B%22name%22%3A%22saush123%22%2C%22comment%22%3A%22congrats123%22%7D?l_pub=0.08&ortt=%7B%22t%22%3A16875221183921702%7D&pnsdk=PubNub-Ruby%2F5.2.2&seqn=6&uuid=d0a02f0f-8a84-4b36-9f78-846bb84c3299
+D, [2023-06-23T17:38:38.465112 #47664] DEBUG -- Pubnub::Event: Event#handle
+D, [2023-06-23T17:38:38.465939 #47664] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2023-06-23T17:38:45.341003 #47664] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2023-06-23T17:38:45.341055 #47664] DEBUG -- Pubnub::Telemetry: Current average: 0.07064366340637207
+D, [2023-06-23T17:38:45.341118 #47664] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2023-06-23T17:38:45.341803 #47664] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2023-06-23T17:38:45.342181 #47664] DEBUG -- Pubnub::Event: #send_request called
+D, [2023-06-23T17:38:45.342211 #47664] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2023-06-23T17:38:45.342229 #47664] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2023-06-23T17:38:45.342921 #47664] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2023-06-23T17:38:45.343408 #47664] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-e90fee66-1699-4ee4-be3f-1ca59458523f/sub-c-06aae617-f0de-44b8-9c9a-62279dc10f7f/0/channel-2/0/%7B%22name%22%3A%22esfs%22%2C%22comment%22%3A%22sf%22%7D?l_pub=0.071&ortt=%7B%22t%22%3A16875221253411470%7D&pnsdk=PubNub-Ruby%2F5.2.2&seqn=7&uuid=d0a02f0f-8a84-4b36-9f78-846bb84c3299
+D, [2023-06-23T17:38:45.383330 #47664] DEBUG -- Pubnub::Event: Event#handle
+D, [2023-06-23T17:38:45.383566 #47664] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2023-06-23T17:41:48.760172 #47664] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2023-06-23T17:41:48.760228 #47664] DEBUG -- Pubnub::Telemetry: Current average: 0.04002737998962402
+D, [2023-06-23T17:41:48.760382 #47664] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2023-06-23T17:41:48.761173 #47664] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2023-06-23T17:41:48.761790 #47664] DEBUG -- Pubnub::Event: #send_request called
+D, [2023-06-23T17:41:48.762823 #47664] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2023-06-23T17:41:48.763296 #47664] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2023-06-23T17:41:48.775241 #47664] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2023-06-23T17:41:48.775700 #47664] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-e90fee66-1699-4ee4-be3f-1ca59458523f/sub-c-06aae617-f0de-44b8-9c9a-62279dc10f7f/0/channel-2/0/%7B%22name%22%3A%22yes%22%2C%22comment%22%3A%22yes%20yes%22%7D?l_pub=0.04&ortt=%7B%22t%22%3A16875223087604160%7D&pnsdk=PubNub-Ruby%2F5.2.2&seqn=8&uuid=d0a02f0f-8a84-4b36-9f78-846bb84c3299
+D, [2023-06-23T17:41:48.838597 #47664] DEBUG -- Pubnub::Event: Event#handle
+D, [2023-06-23T17:41:48.839237 #47664] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish

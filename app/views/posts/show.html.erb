@@ -61,15 +61,23 @@
 
     pubnub.addListener({
       message: function (message) {
-		  console.log('1...' + message.message.comment);
-
         const comment = message.message.comment;
         const commentsContainer = document.getElementById('comments-container');
         const newCommentElement = document.createElement("div");
         newCommentElement.classList.add('comment');
         newCommentElement.innerHTML = `
-          <p class="comment-name"><strong>${message.message.name}</strong>:</p>
-          <p class="comment-content">${comment}</p>
+          <div class="box">
+            <article class="media">
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>${message.message.name}:</strong>
+                    ${comment}
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
         `;
         commentsContainer.appendChild(newCommentElement);
       }
